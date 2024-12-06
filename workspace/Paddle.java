@@ -3,15 +3,19 @@ import java.awt.*;
 public class Paddle {
 
 	//your code here!
+	//your code here!
+	// Name : Lee Zoe Randriatahina
+	// date : 12/06/2024
+	// description : This class  set the speed of the paddle and change its image 
 	
-	//don't forget you need instance variables:
+	//instance variables:
 	private int x;
 	private int y;
 	private int height;
 	private int width;
 	private int velocity=0;
 	
-	//constructor(s):
+	//constructor:
 	public Paddle ( int x , int y , int width ,int height) {
 		this.x=x;
 		this.y=y;

@@ -2,15 +2,18 @@ import java.awt.*;
 
 public class Ball {
 	//your code here!
-	
-	//don't forget you need instance variables
+	// Name : Lee Zoe Randriatahina
+	// date : 12/06/2024
+	// description : This class set the speed of the ball and change its image 
+
+	// instance variables
 	private int x;
 	private int y;
 	private int size;
 	private int xVelocity=1;
 	private int yVelocity=1;
 	
-	//constructor(s):
+	//constructor:
 	public Ball ( int x , int y , int size) {
 		this.x=x;
 		this.y=y;
@@ -58,9 +61,13 @@ public class Ball {
 		y+=yVelocity;
 	}
 
+	//precondition: none
+	//postcondition: reverse the x of the ball 
 	public void reverseX() {
 		xVelocity=xVelocity*-1;
 	}
+	//precondition: none
+	//postcondition: reverse the y of the ball 
 	public void reverseY() {
 		yVelocity=yVelocity*-1;
 	}
